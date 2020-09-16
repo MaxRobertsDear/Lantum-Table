@@ -1,0 +1,17 @@
+{
+    "plugins": ["@babel/plugin-transform-arrow-functions",
+      "@babel/plugin-proposal-class-properties",
+      "transform-react-jsx-img-import",
+      [
+      "@babel/plugin-proposal-object-rest-spread", { "loose": true, "useBuiltIns": true }],
+      ["@babel/transform-runtime", {
+        "regenerator": true
+      }]
+    ],
+    "presets": [
+      "@babel/env",
+      "@babel/react", 
+      "@babel/preset-typescript"
+    ]
+   }
+   
