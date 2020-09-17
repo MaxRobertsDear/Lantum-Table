@@ -10,6 +10,17 @@
 4. Data will be ordered by data, by default.
 5. For the purposes of this task, I am assuming that the user is already logged in.
 
+## ⏰ If I had more time 
+### For the task
+- Would replace all type `any` with appropriate interfaces
+- Would add more tests for more effective regression detection
+- Would order the data by date
+
+### Real world scenario
+- Would work with BE team to develop api that accepts query params (to only fetch data that is relevant to the user and matches their `staffType`, along with any other filters
+- Would add authentication so that the table is only viewable by licensed professionals
+- Would work with the design team to elevate the UI and UX of the table (e.g. branding, adding/removing features based on user feedback, etc.)
+
 
 ## 🚀 Getting Started
  
@@ -34,14 +45,6 @@ To run unit and integration test
 ```yarn test```
  
  
- 
-## Contributing
- 
-### 🤝 Branching 
- 
-This project uses the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) branching model.
-Feature branches should be taken from and merged back to develop.
-Bugfix branches should be taken from master and merged back into both master and develop.
  
  
  
