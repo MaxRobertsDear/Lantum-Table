@@ -57,7 +57,66 @@ exports[`renders Table 1`] = `
         </thead>
         <tbody
           class="MuiTableBody-root"
-        />
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-hover"
+            role="checkbox"
+            tabindex="-1"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              Grant Tree Medical Centre
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              19/11/2020
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              19/11/2020, 16:50:00 - 19/11/2020, 19:15:00
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              85
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            />
+          </tr>
+          <tr
+            class="MuiTableRow-root MuiTableRow-hover"
+            role="checkbox"
+            tabindex="-1"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              Central London Hospital
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              19/03/2021
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+            >
+              19/03/2021, 08:50:00 - 19/03/2021, 17:15:00
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              100
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            />
+          </tr>
+        </tbody>
       </table>
     </div>
     <div
@@ -71,7 +130,7 @@ exports[`renders Table 1`] = `
         />
         <p
           class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
-          id="mui-11730"
+          id="mui-52237"
         >
           Rows per page:
         </p>
@@ -80,9 +139,9 @@ exports[`renders Table 1`] = `
         >
           <div
             aria-haspopup="listbox"
-            aria-labelledby="mui-11730 mui-35540"
+            aria-labelledby="mui-52237 mui-55411"
             class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
-            id="mui-35540"
+            id="mui-55411"
             role="button"
             tabindex="0"
           >
@@ -108,7 +167,7 @@ exports[`renders Table 1`] = `
         <p
           class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
         >
-          0-0 of 0
+          1-2 of 2
         </p>
         <div
           class="MuiTablePagination-actions"

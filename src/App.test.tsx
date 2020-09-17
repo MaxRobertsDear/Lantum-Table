@@ -75,7 +75,7 @@ test('renders <App >', async () => {
             />
             <p
               class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
-              id="mui-79155"
+              id="mui-28861"
             >
               Rows per page:
             </p>
@@ -84,9 +84,9 @@ test('renders <App >', async () => {
             >
               <div
                 aria-haspopup="listbox"
-                aria-labelledby="mui-79155 mui-648"
+                aria-labelledby="mui-28861 mui-78445"
                 class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
-                id="mui-648"
+                id="mui-78445"
                 role="button"
                 tabindex="0"
               >
