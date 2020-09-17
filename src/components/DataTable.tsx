@@ -1,22 +1,7 @@
 import React from 'react'
 import ResuableTable from './Table'
 import axios from 'axios'
-interface Column {
-  id: 'name' | 'date' | 'hours' | 'rate' | 'applicants';
-  label: string;
-  minWidth?: number;
-  align?: 'right' | 'center' | 'left';
-}
-
-interface RowElement {
-  [x: string]: any;
-  //   id: string;
-  //   name: string;
-  //   date: string;
-  //   hours: string;
-  //   rate: number;
-  //   applicants: number;
-}
+import { Column, RowElement } from './DataTable.d'
 
 const DataTable = ({ userData }: any) => {
   const [data, setData] = React.useState([])
@@ -56,7 +41,6 @@ const DataTable = ({ userData }: any) => {
         Date.parse(element.startDatetime) && // to ensure date is valid
         Date.parse(element.endDatetime) // to ensure date is valid
       ) {
-        console.log(element)
         rows.push({
           id: element.id,
           name: element.practice.name,
