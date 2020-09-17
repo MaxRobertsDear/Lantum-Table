@@ -17,7 +17,7 @@
 - Would order the data by date
 
 ### Real world scenario
-- Would work with BE team to develop api that accepts query params (to only fetch data that is relevant to the user and matches their `staffType`, along with any other filters
+- Would work with BE team to develop api that accepts query params (to only fetch data that is relevant to the user and matches their `staffType`, along with any other filters) and / or explore GraphQL 
 - Would add authentication so that the table is only viewable by licensed professionals
 - Would work with the design team to elevate the UI and UX of the table (e.g. branding, adding/removing features based on user feedback, etc.)
 
